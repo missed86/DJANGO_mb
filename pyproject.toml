@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mb"
+version = "0.1.0"
+description = ""
+authors = ["missed86 <jimmy11286@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.1.6"
+
+
+[tool.poetry.group.dev.dependencies]
+autopep8 = "^2.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
